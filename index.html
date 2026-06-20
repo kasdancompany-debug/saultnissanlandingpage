@@ -88,9 +88,10 @@
     }
 
     .logo-emblem {
-      width: 52px;
       height: 52px;
+      width: auto;
       flex-shrink: 0;
+      display: block;
     }
 
     .logo-wordmark {
@@ -290,10 +291,14 @@
   <main class="page">
     <div class="logo-wrap">
       <a class="logo" href="https://www.saultnissan.ca" aria-label="Sault Nissan">
-        <svg class="logo-emblem" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path fill="currentColor" fill-rule="evenodd" d="M26 2C12.7 2 2 12.7 2 26s10.7 24 24 24 24-10.7 24-24S39.3 2 26 2zm0 5.5C15.4 7.5 7.5 15.4 7.5 26S15.4 44.5 26 44.5 44.5 36.6 44.5 26 36.6 7.5 26 7.5zM0 22h52v8H0z"/>
-          <text x="26" y="28.5" text-anchor="middle" fill="#0a0a0a" font-family="Arial, sans-serif" font-size="6.5" font-weight="700" letter-spacing="0.35">NISSAN</text>
-        </svg>
+        <img
+          class="logo-emblem"
+          src="nissan-emblem.png"
+          alt=""
+          width="62"
+          height="52"
+          loading="eager"
+        >
         <span class="logo-wordmark">SAULT NISSAN</span>
       </a>
     </div>
